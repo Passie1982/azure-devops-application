@@ -19,6 +19,7 @@ jobs:
     inputs:
       command: 'custom'
       customCommand: 'audit'
+      workingDir: src/angular7-cypress
 
   - task: Npm@1
     displayName: 'Build Angular'
